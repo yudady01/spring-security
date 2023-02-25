@@ -1,0 +1,10 @@
+package cn.jpanda.demo.manager.configuration.log.handler.filters;
+
+/**
+ * @author HanQi [Jpanda@aliyun.com]
+ * @version 1.0
+ * @since 2020/6/8 10:04:40
+ */
+public interface Filter {
+    boolean filter(String str);
+}
